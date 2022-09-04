@@ -10,7 +10,7 @@ include_once 'includes/mensagem.php';
     <form action="php_action/create.php" method="POST">
       <div>
         <div class="input-field col s6">
-          <input type="text" name="nome" id="nome" autofocus>
+          <input type="text" required name="nome" id="nome" autofocus>
           <label for="nome">Nome*</label>
         </div>
         <div class="input-field col s6">
@@ -21,46 +21,46 @@ include_once 'includes/mensagem.php';
 
       <div>
         <div class="input-field col s6">
-          <input type="number" name="cpf" id="cpf">
+          <input type="number" required name="cpf" id="cpf">
           <label for="cpf">CPF*</label>
         </div>
         <div class="input-field col s6">
-          <input type="number" name="telefone" id="telefone">
+          <input type="number" required name="telefone" id="telefone">
           <label for="telefone">Telefone*</label>
         </div>
       </div>
 
       <div class="input-field col s12">
-        <input type="email" name="email" id="email">
+        <input type="email" required name="email" id="email">
         <label for="email">Email*</label>
       </div>
 
       <div>
         <div class="input-field col s3">
-          <input type="number" name="cep" id="cep">
+          <input type="number" required name="cep" id="cep">
           <label for="cep">CEP*</label>
         </div>
         <div class="input-field col s6">
-          <input type="text" name="endereco" id="endereco">
+          <input type="text" required name="endereco" id="endereco">
           <label for="endereco">Endereço*</label>
         </div>
         <div class="input-field col s3">
-          <input type="text" name="numero" id="numero">
+          <input type="text" required name="numero" id="numero">
           <label for="numero">Número*</label>
         </div>
       </div>
 
       <div>
         <div class="input-field col s3">
-          <input type="text" name="estado" id="estado">
+          <input type="text" required name="estado" id="estado">
           <label for="estado">Estado*</label>
         </div>
         <div class="input-field col s3">
-          <input type="text" name="cidade" id="cidade">
+          <input type="text" required name="cidade" id="cidade">
           <label for="cidade">Cidade*</label>
         </div>
         <div class="input-field col s6">
-          <input type="text" required name="complemento" id="complemento">
+          <input type="text" name="complemento" id="complemento">
           <label for="complemento">Complemento</label>
         </div>
       </div>
